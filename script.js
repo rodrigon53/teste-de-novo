@@ -1,9 +1,9 @@
 const box = document.getElementById('box');
-document.addEventListener('keydown', e => moveBoxLeft());
+document.addEventListener('keydown', e => moveBoxRight());
 
 let boxPos = 0;
 
-function moveBoxLeft() {
+function moveBoxRight() {
    boxPos += 10;
    box.style.left = boxPos + 'px'; 
 }
